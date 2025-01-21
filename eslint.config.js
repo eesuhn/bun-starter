@@ -18,6 +18,7 @@ export default [
     rules: {
       ...typescriptPlugin.configs.recommended.rules,
       'prettier/prettier': 'warn',
+      '@typescript-eslint/no-explicit-any': 'off',
     },
   },
 ];
